@@ -520,16 +520,17 @@ html {
 		row-gap: 2rem;
 		padding: var(--header-height) 0 3rem;
 		.home__image {
-			width: 500px;
+			width: clamp(min(320px, 100%), 85vw, 445px);;
 			height: auto;
 			margin: 0 auto;
 			[src] {
-				position: absolute;
+				display: block;
+				margin: 0 auto;
 				border-radius: 50%;
 				border:4px solid #04df58;
 				width: 200px;
 				height: 200px;
-				display: block;
+				
 				justify-content: center;
 				top: 70px;
 				right: 50px;
