@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Martínez Esquivel">
+    <meta name="description" content="Este es mi portafolio en el que muestro mis habilidades respecto a Javascript, HTML, CSS. Entre otros ">
+    <meta name="keywords" content="desarrolador web,backend,Javascrop,CSS,HTML,programador">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="icon" href="assets/img/mi-logo.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar grid--container flex--container">
+            <a class="navbar__logo flex--container" href="#"><i class="bx bxs-registered"></i>MAECODE</a>
+            <div id="nav" class="navbar__menu">
+                <a href="#close"><i class="bx bx-x btn__close navbar__icon flex--container"></i></a>
+
+                <ul class="navbar__list flex--container">
+                    <li class="navbar__item">
+                        <a class="navbar__link active" href="#home">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#about">About me</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__toggles flex--container">
+                <div class="navbar__toggle--darkmode flex--container">
+                    <input type="checkbox" name="color-scheme" id="darkmode-toggle" class="navbar__toggle--darkmode-input" />
+                    <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+                        <i class="bx bx-sun navbar__toggle--darkmode-sun"></i>
+                        <i class="bx bx-moon navbar__toggle--darkmode-moon"></i>
+                    </label>
+                </div>
+                <div class="navbar__toggle--language flex--container">
+                    <input type="checkbox" id="language-toggle" class="navbar__toggle--language-input" />
+                    <label for="language-toggle" class="navbar__toggle--language-label"></label>
+                </div>
+            </div>
+            <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <i class="bx bxl-html5 home__layer home__layer--1" data-speed="-5"></i>
+            <i class="bx bxl-javascript home__layer home__layer--2" data-speed="5"></i>
+            <i class="bx bxl-css3 home__layer home__layer--3" data-speed="2"></i>
+            <i class="bx bxl-nodejs home__layer home__layer--4" data-speed="6"></i>
+            <i class="bx bxl-react home__layer home__layer--5" data-speed="8"></i>
+            <i class="bx bxl-tailwind-css home__layer home__layer--6" data-speed="-2"></i>
+            <i class="bx bxl-redux home__layer home__layer--7" data-speed="4"></i>
+            <i class="bx bxl-typescript home__layer home__layer--8" data-speed="-2"></i>
+            <i class="bx bxl-git home__layer home__layer--9" data-speed="6"></i>
+            <i class="bx bxl-graphql home__layer home__layer--10" data-speed="-7"></i>
+            <i class="bx bx-code-alt home__layer home__layer--11" data-speed="-5"></i>
+            <div class="home__container grid--container">
+                <div class="home__image">
+                    <img src="assets/img/profile-img-3.png-fotor-2024070714196.png" alt="profile photo" title="Alejandro Martínez">
+                </div>
+                <ul class="home__social flex--container">
+                    <li class="home__social-item">
+                        <a class="home__social-link" href="https://www.linkedin.com/in/alejandro-martinez-esquivel-a899a4317/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    </li>
+                    <li class="home__social-item">
+                        <a class="home__social-link" href="https://wa.me/+524331006851?text=Hola soy un reclutador" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                    </li>
+                    <li class="home__social-item">
+                        <a class="home__social-link" href="https://github.com/AlexSmart9" target="_blank"><i class="bx bxl-github"></i></a>
+                    </li>
+                    <li class="home__social-item">
+                        <a class="home__social-link" href="mailto:alex247martínez@outlook.es" target="_blank"><i class="bx bx-envelope"></i></a>
+                    </li>
+                </ul>
+
+                <div class="home__info">
+                    <h1 class="home__title">Hi, I'm Alejandro</h1>
+                    <p class="home__description">
+                        I am a web developer and student who is very passionate about
+                    programming and everything related to technology.
+                    </p>
+                 </div>
+
+                 <div class="home__buttons">
+                    <a class="btn btn--primary" href="" title="Descargar mi CV" download="my_cv" rel="noreferrer nofollow">
+                        Download CV
+                    </a>
+                 </div>
+            </div>
+        </section>
+        <section id="about" class="about section">
+            <h2 class="section__title">About me</h2>
+            <div class="about__container grid--container">
+                <p class="about__description">
+                    I am a web developer who is currently studying Systems Engineering, I am very passionate about the world
+                    of Software development and the creation of new technologies, I am also a sympathizer of animals and I 
+                    really like spending time with my pets, although without a doubt what I enjoy most is learning new things every day.
+                </p>
+                <div class="about__cards flex--container">
+                    <!--Card 1 -->
+                    <div class="about__card">
+                        <img class="about__card--img" src="assets/img/con-mama-removebg-preview.png" alt="My biggest motivation" 
+                        title="My biggest motivation" />
+                    </div>
+                    <!--Card 2 -->
+                    <div class="about__card">
+                        <img class="about__card--img" src="assets/img/con-mis-mascotas.png" alt="with my pets"
+                        title="with my pets" />
+                    </div>
+                    <!--Card 3 -->
+                    <div class="about__card">
+                        <img class="about__card--img" src="assets/img/at-school.jpeg" alt="At school"
+                        title="At school" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills section">
+            <h2 class="section__title">Skills</h2>
+            <div class="skills__container grid--container">
+                <p class="skills__description flex--container">
+                    My technical skills range from creating HTML documents 
+                    to their styling as well as the creation and implementation of scripts
+                    through Javascript. 
+                </p>
+
+                <div class="skills__wrapper flex--container">
+                    <div class="skills__cards flex--container">
+                        <!--Card 1 -->
+                        <details class="skills__cards-container" name="moreInfo" open>
+                            <summary class="skills__cards-title flex--container">
+                                <i class="bx bxl-html5 flex--container"></i>
+                            </summary>
+                            <div class="skills__card-container">
+                                <h3 class="skills__card-title">HTML5</h3>
+
+                                <p class="skills__card-description">
+                                    In HTML I can take care of the creation of documents with the correct use of 
+                                    labels as well as the use of attributes such as classes and id's, also
+                                    I am able to create links with protocols as well as forms.
+                                </p>
+                            </div>
+                        </details>
+                        <!--Card 2 -->
+                        <details class="skills__cards-container" name="moreInfo">
+                             <summary class="skills__cards-title flex--container">
+                                <i class="bx bxl-css3 flex--container"></i>
+                             </summary>
+                             <div class="skills__card-container">
+
+                                <h3 class="skills__card-title">CSS3</h3>
+
+                                <p class="skills__card-description">
+                                    In CSS3 I am able to implement resets as well as the use of 
+                                    properties whether for styling, animating and even responsive design 
+                                    through properties such as flex, grid or the use of media querys.  
+                                </p>
+                            </div>
+                        </details>
+                        <!--Card 3 -->
+                        <details class="skills__cards-container" name="moreInfo">
+                            <summary class="skills__cards-title flex--container">
+                                <i class="bx bxl-javascript flex--container"></i>
+                            </summary>
+                            <div class="skills__card-container">
+                                <h3 class="skills__card-title">Javascript</h3>
+                                <p class="skills__card-description">
+                                    In Javascript I have skills in the correct use of the different
+                                    types of data as well as the different methods that can be applied to them
+                                    to each of them and also the correct use of functions,
+                                    conditionals and loops.
+                                </p>
+                            </div>
+                        </details>
+                        <!--Card 4 -->
+                        <details class="skills__cards-container" name="moreInfo">
+                            <summary class="skills__cards-title flex--container">
+                                <i class="bx bxl-react flex--container"></i>
+                            </summary>
+                            <div class="skills__card-container">
+                                <h3 class="skills__card-title">React</h3>
+                                <p class="skills__card-description">
+                                    I haven't skills on React for now.
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <div class="skills__tags flex--container">
+                    <h3 class="skills__tags-title">Soft skills</h3>
+                    <div class="skills__tags-container flex--container">
+                        <span class="skills__tag">Responsible</span>
+                        <span class="skills__tag">Teamwork</span>
+                        <span class="skills__tag">Punctual</span>
+                        <span class="skills__tag">Determined</span>
+                        <span class="skills__tag">Proactive</span>
+                        <span class="skills__tag">Creative</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects section">
+            <h2 class="section__title">Projects</h2>
+
+            <div class="projects__container grid--container">
+                <!-- Project 1 -->
+                <div class="projects__project">
+                    <div class="projects__inner grid--container">
+                        <div class="projects__image">
+                            <img src="assets/img/project1.jpg" alt="project 1" title="Ecommerce Vanilla" />
+                        </div>
+                        <div class="projects__info">
+                            <h3 class="projects__name">Project 1</h3>
+                            <p class="projects__description">
+                                There will be a project here soon, i promise.
+                            </p>
+                            <div class="projects__buttons">
+                                <button class="btn projects__button" type="button">
+                                    LOOK DEMO
+                                </button>
+                                <button class="btn projects__button" type="button">
+                                    LOOK CODE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="projects__project">
+                    <div class="projects__inner grid--container">
+                        <div class="projects__image">
+                            <img src="assets/img/project2.png" alt="project 2" title="Consumiendo API Pokemon con React" />
+                        </div>
+
+                        <div class="projects__info">
+                            <h3 class="projects__name">Project 2</h3>
+                            <p class="projects__description">
+                                There will be a project here soon, i promise.
+                            </p>
+                            <div class="projects__buttons">
+                                <button class="btn projects__button" type="button">
+                                    LOOK DEMO
+                                </button>
+                                <button class="btn projects__button" type="button">
+                                    LOOK CODE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="projects__project">
+                    <div class="projects__inner grid--container">
+                        <div class="projects__image">
+                            <img src="assets/img/project3.jpg" alt="project 3" title="CRUD con React" />
+                        </div>
+                        <div class="projects__info">
+                            <h3 class="projects__name">Project 3</h3>
+                            <p class="projects__description">
+                                There will be a project here soon, i promise.
+                            </p>
+                            <div class="projects__buttons">
+                                <button class="btn projects__button" type="button">
+                                    LOOK DEMO
+                                </button>
+                                <button class="btn projects__button" type="button">
+                                    LOOK CODE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Project 4 -->
+                <div class="projects__project">
+                    <div class="projects__inner grid--container">
+                      <div class="projects__image">
+                        <img src="assets/img/project4.png" alt="project 1" title="Aplicación del tiempo con React" />
+                      </div>
+          
+                      <div class="projects__info">
+                        <h3 class="projects__name">Project 4</h3>
+                        <p class="projects__description">
+                            There will be a project here soon, i promise.
+                        </p>
+          
+                        <div class="projects__buttons">
+                          <button class="btn projects__button" type="button">
+                            LOOK DEMO
+                          </button>
+                          <button class="btn projects__button" type="button">
+                            LOOK CODE
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+        <section id="contact" class="contact section">
+            <h2 class="section__title">Contact</h2>
+      
+            <div class="contact__container grid--container">
+              <div class="contact__info">
+                <h3 class="contact__info-title">Contact Information</h3>
+                <p class="contact__info-description">
+                    Please contact me using any of the following
+                    links or using the form.
+                </p>
+      
+                <address class="contact__info-data">
+                  <div class="contact__info-item">
+                    <i class="bx bxl-whatsapp"></i>
+      
+                    <span class="contact__info-number">
+                      <a href="https://wa.me/+524331006851?text=Hola soy un reclutador" target="_blank"
+                        rel="noreferrer nofollow">Send WhatsApp</a>
+                    </span>
+                  </div>
+      
+                  <div class="contact__info-item">
+                    <i class="bx bx-phone"></i>
+      
+                    <span class="contact__info-number">
+                      <a href="tel:+52 4331006851" target="_blank" rel="noreferrer nofollow">
+                        Call me
+                      </a>
+                    </span>
+                  </div>
+      
+                  <div class="contact__info-item">
+                    <i class="bx bxs-envelope"></i>
+      
+                    <span class="contact__info-mail">
+                      <a id="mail" href="mailto:alex247martínez@outlook.es" target="_blank" rel="noreferrer nofollow">
+                        Send an email
+                      </a>
+                    </span>
+                  </div>
+      
+                  <div class="contact__info-item">
+                    <i class="bx bx-map"></i>
+      
+                    <span class="contact__info-map"> Zacatecas, México </span>
+                  </div>
+                </address>
+              </div>
+              <div class="contact__form">
+                <h3 class="contact__form-title">Send message</h3>
+                <form id="form" class="contact__form-container">
+                  <div class="contact__form-group">
+                    <label for="name" class="contact__form-label">Name</label>
+                    <input type="text" id="name" name="name" class="contact__form-input" />
+                  </div>
+      
+                  <div class="contact__form-group">
+                    <label for="email" class="contact__form-label">Email</label>
+                    <input type="email" id="email" name="email" class="contact__form-input" />
+                  </div>
+      
+                  <div class="contact__form-group">
+                    <label for="subject" class="contact__form-label">Subject</label>
+                    <input type="text" id="subject" name="subject" class="contact__form-input" />
+                  </div>
+      
+                  <div class="contact__form-group">
+                    <label for="message" class="contact__form-label">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+                  </div>
+                  <dialog id="modal">
+                    Form submitted successfully!
+                    <button type="reset" id="btn_close-modal">Close</button>
+                  </dialog>
+      
+                  <button type="submit" class="btn contact__form-button">
+                    Send 
+                  </button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer section">
+            <div class="footer__container grid--container">
+              <div class="footer__info">
+                <h3 class="footer__title">Alejandro Martínez</h3>
+                <p class="footer__description">
+                 I am a web developer and student, passionate about technology and
+                    programming.
+                </p>
+              </div>
+        
+              <div class="footer__social">
+                <h3 class="footer__title">Social Networks</h3>
+        
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                            class="bx bxl-facebook"></i></a>
+                      </li>
+            
+                      <li class="footer__social-item">
+                        <a class="footer__social-link" href="https://github.com/AlexSmart9" target="_blank" rel="noreferrer nofollow"><i class="bx bxl-github"></i></a>
+                      </li>
+        
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="https://x.com/AlexSmart333" target="_blank" rel="noreferrer nofollow"><i
+                        class="bx bxl-twitter"></i></a>
+                  </li>
+        
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="https://www.linkedin.com/in/alejandro-martinez-esquivel-a899a4317/" target="_blank" rel="noreferrer nofollow"><i
+                        class="bx bxl-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        
+            <p class="footer__copy"></p>
+          </footer>    
+</body>
+</html>
